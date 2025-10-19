@@ -1,4 +1,4 @@
-# 🌱 StreakMaster — From Notes to Growth
+## 🌱 StreakMaster — From Notes to Growth
 
 **Your personal growth mentor, built from scratch.**
 
@@ -46,17 +46,17 @@ So I decided to take it personally — and build one myself. 💡
 
 To run this project locally:
 
-# 1. Clone the repository
-git clone https://github.com/yourusername/streakmaster-frontend.git
+ 1. Clone the repository
+    git clone https://github.com/Engr-Mahajabin/StreakMaster-Frontend-
 
-# 2. Navigate to the project directory
-cd streakmaster-frontend
+ 2. Navigate to the project directory
+    cd streakmaster-frontend
 
-# 3. Install dependencies
-npm install
+ 3. Install dependencies
+    npm install
 
-# 4. Run the development server
-npm run dev
+ 4. Run the development server
+    npm run dev
 
 ---
 
