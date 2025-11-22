@@ -31,7 +31,7 @@ export default function AuthForm({ isLogin, onAuth, onToggleMode }) {
     };
 
     return (
-        <div className="bg-white rounded-xl shadow-lg p-8">
+        <div className="bg-white rounded-xl shadow-lg p-8 w-full max-w-md">
             <div className="text-center mb-6">
                 <h2 className="text-2xl font-bold mb-2 text-blue-500">
                     {isLogin ? "Welcome Back" : "Start Your Journey"}

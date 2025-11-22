@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import LandingPage from "./pages/LandingPage.jsx";
 import AuthForm from "./components/AuthForm";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./pages/Dashboard.jsx";
+
 
 export default function App() {
   const [user, setUser] = useState(null);
