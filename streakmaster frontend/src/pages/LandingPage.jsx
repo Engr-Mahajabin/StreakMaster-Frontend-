@@ -6,7 +6,7 @@ import Footer from "../components/Landing/Footer";
 
 export default function LandingPage({ onGetStarted }) {
     return (
-        <div className="bg-white min-h-screen flex flex-col">
+        <div className="bg-white max-w-[2480px] mx-auto flex flex-col">
             <HeroSection onGetStarted={onGetStarted} />
             <FeatureSection />
             <CTASection onGetStarted={onGetStarted} />

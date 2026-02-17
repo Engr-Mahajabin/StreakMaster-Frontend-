@@ -119,10 +119,10 @@ export default function Dashboard({ user, onLogout }) {
     const bestStreak = Math.max(...habits.map((h) => h.bestStreak || 0), 0);
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="w-full max-w-[2480px] mx-auto">
             {/* Header */}
             <header className="bg-white border-b shadow-sm">
-                <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
+                <div className="max-w-[2400px] mx-auto px-16 flex justify-between items-center h-16">
                     <div className="flex items-center space-x-4">
                         <h1 className="text-2xl font-bold text-gray-800">StreakMaster</h1>
                         <span className="hidden sm:block text-gray-700 font-medium">
@@ -149,7 +149,7 @@ export default function Dashboard({ user, onLogout }) {
             </header>
 
             {/* Main */}
-            <main className="max-w-7xl mx-auto px-4 py-8">
+            <main className="max-w-[2400px] mx-auto px-16 py-8">
                 <MotivationalQuotes />
 
                 {/* Stats Cards */}
